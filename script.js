@@ -8,7 +8,6 @@ document.getElementById('form').addEventListener('submit', function (event) {
     obj.names.push(document.getElementById('nome2').value);
     obj.names.push(document.getElementById('nome3').value);
     obj.names.push(document.getElementById('nome4').value);
-    obj.names.push(document.getElementById('nome5').value);
   
     console.log(obj);
   
